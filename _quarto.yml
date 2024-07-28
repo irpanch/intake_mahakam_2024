@@ -1,0 +1,40 @@
+project:
+  type: book
+
+book:
+  title: "Kajian Debit Lingkungan di Sungai Citarum Hulu"
+  author: "Irpan Chumaedi"
+  date: "October 2023"
+  chapters:
+    - index.qmd
+    - 1_pendahuluan.qmd
+    - 2_tinjauan_pustaka.qmd
+    - 3_gambaran_umum.qmd
+    - 4_metodologi_penelitian.qmd
+    - 5_analisa_pembahasan.qmd
+    - 6_kesimpulan_saran.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    code-fold: true
+    html-math-method: katex
+    number-sections: true
+    number-offset: 2
+    number-depth: 3
+  pdf:
+    documentclass: scrreprt
+    geometry: 
+      - top=30 mm
+      - left=30 mm
+  docx: default
+
+editor: visual
+crossref:
+  fig-title: '**Gambar**'
+  fig-labels: arabic
+  title-delim: "**. **"

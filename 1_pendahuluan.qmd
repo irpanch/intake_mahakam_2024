@@ -1,0 +1,160 @@
+# Pendahuluan
+
+## Latar Belakang {#sec-latar-belakang}
+
+Secara global, penggunaan air yang berlebihan menyebabkan masalah lingkungan yang sangat serius dalam beberapa dekade terakhir [@vörösmarty2010]. Air yang dibutuhkan oleh manusia naik secara eksponensial semenjak masa pra-industrialisasi khususnya setelah tahun 1950-an [@riverine2018]. Krisis air yang terjadi bukan hanya terjadi dari sudut pandang manusia, namun juga biota air sungai yang hidup didalamnya. *World Wide Fund for Nature* atau @wwf2020, menyebutkan bahwa hingga 84% hewan air tawar di seluruh dunia telah berkurang sejak tahun 1970.
+
+Di Indonesia sendiri, perubahan regim hidrologis akibat  kegiatan manusia seperti ekstraksi dan okupasi menyebabkan bertambahnya debit banjir dan berkurangnya debit andalan di Sungai Citarum Hulu [@nurcahyo2016]. Hal tersebut terjadi hampir bersamaan dengan rusaknya habitat ikan endemik yang ada [@istiqomah2021; @sunardi2012; @kartamihardja2019]. Kondisi tersebut menunjukkan bahwa Sungai Citarum Hulu dalam keadaan yang tidak baik karena keberagaman ikan merupakan salah satu indikator ekosistem sungai yang sehat [@leigh2012].
+
+Dalam bidang hidrologi, mitigasi untuk krisis air dan habitat sungai diatas sebenarnya sudah diakomodasi dengan penentuan debit lingkungan (*environmental flow*). @acreman2004, mendefinisikan Debit lingkungan sebagai kuantitas atau volume air yang dibutuhkan dari waktu ke waktu untuk menjaga kesehatan sungai di suatu keadaan tertentu, di mana keadaan tersebut harus ditentukan sebelumnya atau disepakati berdasarkan *trade-off* dengan pertimbangan lain".
+
+Terdapat 207 metode yang  bisa digunakan untuk menghitung debit lingkungan @stamou2018. Metode-metode tersebut kemudian bisa diklasifikasikan menjadi 4 (empat) bagian: hidrologi, hidraulik, habitat, dan holistik @tharme2003 Metode probabilitas Q~95~ @sni6738:20152015 yang umumnya digunakan di Indonesia  masuk dalam klasifikasi metode hidrologi. Efektivitas penerapan metode Q~95~ ini masih perlu dikaji terutama terhadap respon balik habitat yang ada di sungai mengingat parameter yang dijadikan acuan hanya nilai debit tertentu.Hal ini sebenarnya bisa berbahaya karena konsekuensi perhitungan debit lingkungan yang sederhana bisa menimbulkan resiko kepada integritas masa depan dan  keanekaragaman hayati dari ekosistem sungai @arthington2006 Untuk itu perlu dilakukan kajian mengenai efektivitas metode yang umum digunakan beserta perbandingannya dengan metode lain dengan parameter yang lebih beragam serta kompleksitas yang lebih tinggi.
+
+## Masalah Penelitian {#sec-masalah-penelitian}
+
+Beberapa masalah penting yang akan dikaji pada penelitian ini adalah:
+
+1.  Apa metode perhitungan debit lingkungan yang paling sesuai untuk digunakan di sungai Citarum hulu?
+
+2.  Berapa nilai debit yang diperlukan untuk kelangsungan hidup ekosistem di sungai Citarum hulu?
+
+3.  Seberapa besar *gap* atau selisih debit lingkungan terhadap debit eksisting?
+
+4.  Upaya apa yang bisa digunakan untuk mencapai dan mempertahankan debit lingkungan tersebut?
+
+## Maksud dan Tujuan Penelitian {#sec-maksud-dan-tujuan-penelitian}
+
+Maksud dari penelitian ini adalah:
+
+1.  Melakukan analisa kesenjangan (*gap*) debit.
+
+2.  Mengidentifikasi kondisi habitat di sungai Citarum hulu.
+
+3.  Mengkaji Metode debit lingkungan yang paling tepat digunakan di sungai Citarum hulu.
+
+Sedangkan Tujuan yang ingin diperoleh pada penelitian ini adalah:
+
+1.  Memperoleh nilai debit lingkungan yang mengakomodir kondisi hidrologi, peraturan/undang-undang yang ada, serta kebutuhan ekosistem habitat.
+
+2.  Mendapatkan nilai gap debit lingkungan terhadap debit sekarang.
+
+3.  Memperoleh metode yang paling tepat untuk menentukan parameter debit lingkungan yang sesuai dengan kondisi lapangan
+
+## Lingkup Studi {#sec-lingkup-studi}
+
+Beberapa hal yang dilingkup dalam studi ini adalah:
+
+1.  Melakukan pengumpulan data/kompilasi data yang terdiri atas data hidrologi, data karakteristik sungai, data topografi, data tutupan lahan, data habitat perairan.
+
+2.  Melakukan studi literatur.
+
+3.  Melakukan analisis hidrologi, meliputi analisis low flow analysis serta kesenjangan (gap) rata-rata debit dalam periode tertentu..
+
+4.  Melakukan analisis hirolika, meliputi analisis terhadap data dan topografi, analisis karakteristik profil muka air, dan melakukan simulasi hidrolik 1D dengan menggunakan program HEC-RAS.
+
+5.  Melakukan analisa kurva habitat.
+
+## Batasan Masalah {#sec-batasan-masalah}
+
+Mengingat keterbatasan waktu dalam penyusunan tesis ini maka kajian dibatasi
+
+pada beberapa hal berikut:
+
+1.  Lokasi kajian berada di Sungai Citarum hulu diutamakan pada daerah yang telah dilakukan kajian habitat ikan yaitu Bojongsari, Andir, dan Rancamanyar (lihat pada [Gambar @fig-titik])
+
+2.  Analisis yang dilakukan adalah analisis hidrologi dan hidrolika. Tidak dibahas kualitas air, infiltrasi, sedimentasi, temperatur, pelaksanaan maupun studi kelayakan ekonomi. Lihat
+
+3.  Analisis profil muka air/elevasi muka air dilakukan mulai Sapan hingga Nanjung pada ruas Citarum. lihat pada [Gambar @fig-tinjauan]
+
+![Titik Sampling Habitat Ikan di Sungai Citarum Hulu (Sukardi et al., 2012)](_image_table_external/titik_sampling_2012.png){#fig-titik fig-align="center" width="476"}
+
+![Sungai Citarum Hulu (Ruas Sapan -- Nanjung)](_image_table_external/lokasi_ruas_sapan_nanjung.png){#fig-tinjauan fig-align="center"}
+
+## Lokasi Kajian {#sec-lokasi-kajian}
+
+Lokasi dalam penelitian ini adalah ruas Sungai Citarum hulu khususnya di 8 (delapan) titik pengamatan. Yaitu:
+
+a.  Situ Cisanti, Desa Tarumajaya, Kecamatan Kertasari, Kab. Bandung;
+
+b.  Cihawuk, Desa Cibeureum, Kecamatan Kertasari, Kab. Bandung;
+
+c.  Bd. Wangisagara, Desa Karyalaksana, Kecamatan Ibun, Kab. Bandung;
+
+d.  Majalaya, Desa Majalaya, Kecamatan Majalaya, Kab. Bandung;
+
+e.  Tegalluar, Desa Sumbersari, Kecamatan Ciparay, Kab. Bandung;
+
+f.  Bojongsari, Desa Bojongsari, Kecamatan Bojongsoang, Kab. Bandung;
+
+g.  Rancamanyar, Desa Rancamanyar, Kecamatan Baleendah, Kab. Bandung;
+
+h.  Nanjung, Desa Jelegong, Kecamatan Kutawaringin, Kab. Bandung;
+
+Lokasi-lokasi tersebut dipilih karena selain terdapat empat titik pengamatan debit (PDA Majalaya, Sapan, Dayeuhkolot, dan Nanjung) juga penelitian mengenai habitat perairan telah banyak dilakukan di lokasi ini. ( @arif2012, @istiqomah2021, @sunardi2012, @kartamihardja2019).
+
+```{r}
+#| label: fig-lokasi_peta
+#| fig-cap: "Lokasi Tinjauan (Diadaptasi dari Sunardi et. al, 2012)"
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(
+    lng=107.657602, lat=-7.208400, 
+    label="1. Situ Cisanti",
+    labelOptions = labelOptions(noHide = T)) %>% 
+  addMarkers(
+    lng=107.694908, lat=-7.179903, 
+    label="2. Cihawuk",
+    labelOptions = labelOptions(noHide = T)) %>% 
+  addMarkers(
+    lng=107.748823, lat= -7.073946, 
+    label="3. Bd. Wangisagara",
+    labelOptions = labelOptions(noHide = T) )%>% 
+  addMarkers(
+    lng=107.756565, lat= -7.0506543, 
+    label="4. Majalaya",
+    labelOptions = labelOptions(noHide = T) )%>% 
+  addMarkers(
+    lng=107.689273, lat= -6.989905, 
+    label="5. Tegalluar",
+    labelOptions = labelOptions(noHide = T) )%>% 
+  addMarkers(
+    lng=107.654809, lat= -7.007848, 
+    label="6. Bojongsari",
+    labelOptions = labelOptions(noHide = T) )%>% 
+   addMarkers(
+    lng=107.593133, lat= -6.984941, 
+    label="7. Rancamanyar",
+    labelOptions = labelOptions(noHide = T) )%>% 
+   addMarkers(
+    lng=107.535658, lat= -6.941820, 
+    label="8. Nanjung",
+    labelOptions = labelOptions(noHide = T))
+
+```
+
+## Sistematika Penulisan {#sec-sistematika-penulisan}
+
+Dalam kajian ini, sistimatika pembahasan yang dilakukan adalah sebagai berikut:
+
+-   Bab I Pendahuluan
+
+Dalam Bab I menjelaskan tentang Latar Belakang yang mendasari dipilihnya penelitian ini, Masalah Penelitian, Maksud dan Tujuan, Lingkup Studi, Batasan Masalah, Lokasi Kajian serta Sistimatika Penulisan yang dilakukan untuk menyelesaikannya.
+
+-   Bab II Tinjauan Pustaka
+
+Berisi tentang studi terdahulu yang berkaitan dengan lokasi kajian, uraian teori ataupun pedoman yang berkaitan dengan permasalahan secara teoritis yang dipakai dalam studi ini.
+
+-   Bab III Gambaran Umum
+
+Pada bab ini akan diuraikan mengenai kondisi
+
+-   Bab IV Metodologi Penelitian
+
+Pada bab ini akan diuraikan metodologi yang dilaksanakan dalam penelitian ini, yang mencakup alur pikir, metode pelaksanaan kegiatan termasuk dalam pengumpulan data sampai dengan simulasi model.
+
+-   Bab V Analisis dan Pembahasan
+
+Pada bab ini akan dibahas mengenai hasil dari pengumpulan data, analisis hidrologi dengan FDCA, analisis hidrolika, simulasi yang dilakukan menggunakan perangkat lunak HEC-RAS (untuk mendapatkan karakteristik hidrolika), tinjauan berdasarkan aturan lingkungan, dan analisa kecocokan habitat.
+
+-   Bab VI Kesimpulan
