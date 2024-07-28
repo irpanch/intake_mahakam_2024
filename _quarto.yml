@@ -36,5 +36,8 @@ format:
 editor: visual
 crossref:
   fig-title: '**Gambar**'
-  fig-labels: arabic
+  tbl-title: '**Tabel**'
+  #fig-labels: arabic
   title-delim: "**. **"
+  fig-prefix: Gambar
+  tbl-prefix: Tabel
