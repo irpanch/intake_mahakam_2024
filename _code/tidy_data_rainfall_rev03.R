@@ -37,8 +37,8 @@ data$Date <- as.Date(data[,1],format="%d-%b-%y")
 # cek nama kolom
 names(data)
 
-# rubah data sta. cicalengka  menjadi numerik
-data[,5] <- as.numeric(as.character(data[,5]))
+# rubah data sta. kedua  menjadi numerik. cek dulu
+data[,2] <- as.numeric(as.character(data[,2]))
 
 summary(data)
 

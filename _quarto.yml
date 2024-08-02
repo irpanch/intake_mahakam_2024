@@ -1,10 +1,13 @@
 project:
   type: book
 
+template-partials: 
+  - title-block.html
+
 book:
-  title: "Kajian Debit Lingkungan di Sungai Citarum Hulu"
+  title: "Studi Kelayakan dan Basic Desain Pembangunan Intake Mahakam"
   author: "Irpan Chumaedi"
-  date: "October 2023"
+  date: "Agustus 2024"
   chapters:
     - index.qmd
     - 1_pendahuluan.qmd
